@@ -38,7 +38,7 @@ export default function TopBar() {
       <div className='d-flex justify-content-between'>
         <div>
           <h2>
-            {t('hello')}, {user.fullName} 👋
+            {t('hello')}, Samantha 👋
           </h2>
           <p>{t('hello.text')}</p>
         </div>

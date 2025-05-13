@@ -3,9 +3,9 @@ export const PROJECT_NAME = 'Foodyman marketplace';
 export const BASE_URL =
   process.env.REACT_APP_BASE_URL || 'https://api.foodyman.org';
 export const WEBSITE_URL = 'https://foodyman.org';
-export const api_url = BASE_URL + 'http://api.orderup.ng:8000/api/v1/';
-export const api_url_admin = BASE_URL + 'http://api.orderup.ng:8000/api/v1/dashboard/admin/';
-export const api_url_admin_dashboard = BASE_URL + 'http://api.orderup.ng:8000/api/v1/dashboard/';
+export const api_url = BASE_URL + 'https://api.orderup.ng/api/v1/';
+export const api_url_admin = BASE_URL + 'https://api.orderup.ng/api/v1/dashboard/admin/';
+export const api_url_admin_dashboard = BASE_URL + 'https://api.orderup.ng/api/v1/dashboard/';
 export const IMG_URL = '';
 export const export_url = BASE_URL + '/storage/';
 export const example = BASE_URL + '/';
